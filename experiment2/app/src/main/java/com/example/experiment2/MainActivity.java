@@ -27,4 +27,20 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,linear_layout.class);
         this.startActivity(i);
     }
+    public void onClick_btn_l(View v){
+        Intent i = new Intent(this,table_layout.class);
+        this.startActivity(i);
+    }
+    public void onClick_btn(View v){
+        Intent i = new Intent(this,frame_layout.class);
+        this.startActivity(i);
+    }
+    public void onClick_bt(View v){
+        Intent i = new Intent(this,relative_layout.class);
+        this.startActivity(i);
+    }
+    public void onClick_b(View v){
+        Intent i = new Intent(this, Tab_layout.class);
+        this.startActivity(i);
+    }
 }
